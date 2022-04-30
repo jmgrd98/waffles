@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #EAEAEA;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    width: 70vw;
+    margin: 50px 0px;
+    padding: 20px 20px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+h1{
+    font-size: 28px;
+}
+
+h2{
+    font-size: 20px;
+}
+
+ul, ol, p{
+    font-size: 16px;
+}
+
+footer, figcaption{
+    font-size: 12px;
+}
+
+img{
+    width: 500px;
+}
+
+figcaption{
+    text-align: right;
+}
+
+ul{
+    align-self: flex-start;
+}
+
+ol{
+    align-self: flex-start;
+}
+
+li{
+    margin: 50px;
+}
